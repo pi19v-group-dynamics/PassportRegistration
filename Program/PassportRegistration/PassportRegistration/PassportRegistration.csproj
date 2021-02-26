@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7E2AF50D-FA04-405E-B3CE-E3070360AAD1}</ProjectGuid>
+    <ProjectGuid>{A3AF655A-00F6-40E1-8BAA-704CF0B5ECE1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TicTacToe</RootNamespace>
-    <AssemblyName>TicTacToe</AssemblyName>
+    <RootNamespace>PassportRegistration</RootNamespace>
+    <AssemblyName>PassportRegistration</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

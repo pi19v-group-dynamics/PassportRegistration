@@ -1,0 +1,10 @@
+C:\Users\knexi\Documents\GitHub\Tic-tac-toe\Program\PassportRegistration\PassportRegistration\bin\Debug\PassportRegistration.exe.config
+C:\Users\knexi\Documents\GitHub\Tic-tac-toe\Program\PassportRegistration\PassportRegistration\bin\Debug\PassportRegistration.exe
+C:\Users\knexi\Documents\GitHub\Tic-tac-toe\Program\PassportRegistration\PassportRegistration\bin\Debug\PassportRegistration.pdb
+C:\Users\knexi\Documents\GitHub\Tic-tac-toe\Program\PassportRegistration\PassportRegistration\obj\Debug\PassportRegistration.csprojAssemblyReference.cache
+C:\Users\knexi\Documents\GitHub\Tic-tac-toe\Program\PassportRegistration\PassportRegistration\obj\Debug\PassportRegistration.Form1.resources
+C:\Users\knexi\Documents\GitHub\Tic-tac-toe\Program\PassportRegistration\PassportRegistration\obj\Debug\PassportRegistration.Properties.Resources.resources
+C:\Users\knexi\Documents\GitHub\Tic-tac-toe\Program\PassportRegistration\PassportRegistration\obj\Debug\PassportRegistration.csproj.GenerateResource.cache
+C:\Users\knexi\Documents\GitHub\Tic-tac-toe\Program\PassportRegistration\PassportRegistration\obj\Debug\PassportRegistration.csproj.CoreCompileInputs.cache
+C:\Users\knexi\Documents\GitHub\Tic-tac-toe\Program\PassportRegistration\PassportRegistration\obj\Debug\PassportRegistration.exe
+C:\Users\knexi\Documents\GitHub\Tic-tac-toe\Program\PassportRegistration\PassportRegistration\obj\Debug\PassportRegistration.pdb

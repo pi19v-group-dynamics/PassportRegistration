@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TicTacToe
+namespace PassportRegistration
 {
     public partial class Form1 : Form
     {
@@ -19,7 +19,7 @@ namespace TicTacToe
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Console.WriteLine("test"); // тест
+            Console.WriteLine("passport test");
         }
     }
 }

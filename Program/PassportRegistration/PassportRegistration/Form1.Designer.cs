@@ -1,5 +1,5 @@
 ﻿
-namespace TicTacToe
+namespace PassportRegistration
 {
     partial class Form1
     {

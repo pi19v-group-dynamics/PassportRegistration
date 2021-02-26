@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("TicTacToe")]
+[assembly: AssemblyTitle("PassportRegistration")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TicTacToe")]
+[assembly: AssemblyProduct("PassportRegistration")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("7e2af50d-fa04-405e-b3ce-e3070360aad1")]
+[assembly: Guid("a3af655a-00f6-40e1-8baa-704cf0b5ece1")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
