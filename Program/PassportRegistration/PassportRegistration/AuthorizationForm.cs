@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PassportRegistration
 {
-    public partial class Form1 : Form
+    public partial class AuthorizationForm : Form
     {
-        public Form1()
+        public AuthorizationForm()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            Console.WriteLine("passport test");
         }
     }
 }
