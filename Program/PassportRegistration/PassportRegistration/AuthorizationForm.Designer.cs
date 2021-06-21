@@ -29,19 +29,19 @@ namespace PassportRegistration
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbUsername = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.bLogIn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbPassword = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // tbUsername
             // 
-            this.textBox1.Location = new System.Drawing.Point(50, 64);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(276, 22);
-            this.textBox1.TabIndex = 0;
+            this.tbUsername.Location = new System.Drawing.Point(50, 64);
+            this.tbUsername.Name = "tbUsername";
+            this.tbUsername.Size = new System.Drawing.Size(276, 22);
+            this.tbUsername.TabIndex = 0;
             // 
             // label1
             // 
@@ -60,6 +60,7 @@ namespace PassportRegistration
             this.bLogIn.TabIndex = 2;
             this.bLogIn.Text = "Войти";
             this.bLogIn.UseVisualStyleBackColor = true;
+            this.bLogIn.Click += new System.EventHandler(this.bLogIn_Click);
             // 
             // label2
             // 
@@ -70,12 +71,12 @@ namespace PassportRegistration
             this.label2.TabIndex = 4;
             this.label2.Text = "Пароль";
             // 
-            // textBox2
+            // tbPassword
             // 
-            this.textBox2.Location = new System.Drawing.Point(50, 109);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(276, 22);
-            this.textBox2.TabIndex = 3;
+            this.tbPassword.Location = new System.Drawing.Point(50, 109);
+            this.tbPassword.Name = "tbPassword";
+            this.tbPassword.Size = new System.Drawing.Size(276, 22);
+            this.tbPassword.TabIndex = 3;
             // 
             // AuthorizationForm
             // 
@@ -83,10 +84,10 @@ namespace PassportRegistration
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(374, 233);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.bLogIn);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbUsername);
             this.Name = "AuthorizationForm";
             this.Text = "AuthorizationForm";
             this.ResumeLayout(false);
@@ -96,10 +97,10 @@ namespace PassportRegistration
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbUsername;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button bLogIn;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbPassword;
     }
 }
