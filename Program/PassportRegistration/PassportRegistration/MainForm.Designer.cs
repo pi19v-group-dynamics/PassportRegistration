@@ -175,6 +175,7 @@ namespace PassportRegistration
             this.bPersonsDelete.TabIndex = 2;
             this.bPersonsDelete.Text = "Удалить";
             this.bPersonsDelete.UseVisualStyleBackColor = true;
+            this.bPersonsDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // bPersonsAlter
             // 
@@ -184,6 +185,7 @@ namespace PassportRegistration
             this.bPersonsAlter.TabIndex = 1;
             this.bPersonsAlter.Text = "Изменить";
             this.bPersonsAlter.UseVisualStyleBackColor = true;
+            this.bPersonsAlter.Click += new System.EventHandler(this.buttonAlter_Click);
             // 
             // bPersonsAdd
             // 
@@ -193,6 +195,7 @@ namespace PassportRegistration
             this.bPersonsAdd.TabIndex = 0;
             this.bPersonsAdd.Text = "Добавить";
             this.bPersonsAdd.UseVisualStyleBackColor = true;
+            this.bPersonsAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // tabPassports
             // 
@@ -226,6 +229,7 @@ namespace PassportRegistration
             this.bPassportsDelete.TabIndex = 6;
             this.bPassportsDelete.Text = "Удалить";
             this.bPassportsDelete.UseVisualStyleBackColor = true;
+            this.bPassportsDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // bPassportsAlter
             // 
@@ -235,6 +239,7 @@ namespace PassportRegistration
             this.bPassportsAlter.TabIndex = 5;
             this.bPassportsAlter.Text = "Изменить";
             this.bPassportsAlter.UseVisualStyleBackColor = true;
+            this.bPassportsAlter.Click += new System.EventHandler(this.buttonAlter_Click);
             // 
             // bPassportsAdd
             // 
@@ -244,6 +249,7 @@ namespace PassportRegistration
             this.bPassportsAdd.TabIndex = 4;
             this.bPassportsAdd.Text = "Добавить";
             this.bPassportsAdd.UseVisualStyleBackColor = true;
+            this.bPassportsAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // tabTaxNumbers
             // 
@@ -277,6 +283,7 @@ namespace PassportRegistration
             this.bTaxNumbersDelete.TabIndex = 10;
             this.bTaxNumbersDelete.Text = "Удалить";
             this.bTaxNumbersDelete.UseVisualStyleBackColor = true;
+            this.bTaxNumbersDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // bTaxNumbersAlter
             // 
@@ -286,6 +293,7 @@ namespace PassportRegistration
             this.bTaxNumbersAlter.TabIndex = 9;
             this.bTaxNumbersAlter.Text = "Изменить";
             this.bTaxNumbersAlter.UseVisualStyleBackColor = true;
+            this.bTaxNumbersAlter.Click += new System.EventHandler(this.buttonAlter_Click);
             // 
             // bTaxNumbersAdd
             // 
@@ -295,6 +303,7 @@ namespace PassportRegistration
             this.bTaxNumbersAdd.TabIndex = 8;
             this.bTaxNumbersAdd.Text = "Добавить";
             this.bTaxNumbersAdd.UseVisualStyleBackColor = true;
+            this.bTaxNumbersAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // tabTaxOffices
             // 
@@ -328,6 +337,7 @@ namespace PassportRegistration
             this.bTaxOfficesDelete.TabIndex = 14;
             this.bTaxOfficesDelete.Text = "Удалить";
             this.bTaxOfficesDelete.UseVisualStyleBackColor = true;
+            this.bTaxOfficesDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // bTaxOfficesAlter
             // 
@@ -337,6 +347,7 @@ namespace PassportRegistration
             this.bTaxOfficesAlter.TabIndex = 13;
             this.bTaxOfficesAlter.Text = "Изменить";
             this.bTaxOfficesAlter.UseVisualStyleBackColor = true;
+            this.bTaxOfficesAlter.Click += new System.EventHandler(this.buttonAlter_Click);
             // 
             // bTaxOfficesAdd
             // 
@@ -346,6 +357,7 @@ namespace PassportRegistration
             this.bTaxOfficesAdd.TabIndex = 12;
             this.bTaxOfficesAdd.Text = "Добавить";
             this.bTaxOfficesAdd.UseVisualStyleBackColor = true;
+            this.bTaxOfficesAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // tabMarital
             // 
@@ -379,6 +391,7 @@ namespace PassportRegistration
             this.bMaritalDelete.TabIndex = 18;
             this.bMaritalDelete.Text = "Удалить";
             this.bMaritalDelete.UseVisualStyleBackColor = true;
+            this.bMaritalDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // bMaritalAlter
             // 
@@ -388,6 +401,7 @@ namespace PassportRegistration
             this.bMaritalAlter.TabIndex = 17;
             this.bMaritalAlter.Text = "Изменить";
             this.bMaritalAlter.UseVisualStyleBackColor = true;
+            this.bMaritalAlter.Click += new System.EventHandler(this.buttonAlter_Click);
             // 
             // bMaritalAdd
             // 
@@ -397,6 +411,7 @@ namespace PassportRegistration
             this.bMaritalAdd.TabIndex = 16;
             this.bMaritalAdd.Text = "Добавить";
             this.bMaritalAdd.UseVisualStyleBackColor = true;
+            this.bMaritalAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // tabMilitaryDuty
             // 
@@ -430,6 +445,7 @@ namespace PassportRegistration
             this.bMilitaryDutyDelete.TabIndex = 22;
             this.bMilitaryDutyDelete.Text = "Удалить";
             this.bMilitaryDutyDelete.UseVisualStyleBackColor = true;
+            this.bMilitaryDutyDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // bMilitaryDutyAlter
             // 
@@ -439,6 +455,7 @@ namespace PassportRegistration
             this.bMilitaryDutyAlter.TabIndex = 21;
             this.bMilitaryDutyAlter.Text = "Изменить";
             this.bMilitaryDutyAlter.UseVisualStyleBackColor = true;
+            this.bMilitaryDutyAlter.Click += new System.EventHandler(this.buttonAlter_Click);
             // 
             // bMilitaryDutyAdd
             // 
@@ -448,6 +465,7 @@ namespace PassportRegistration
             this.bMilitaryDutyAdd.TabIndex = 20;
             this.bMilitaryDutyAdd.Text = "Добавить";
             this.bMilitaryDutyAdd.UseVisualStyleBackColor = true;
+            this.bMilitaryDutyAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // tabDepartments
             // 
@@ -481,6 +499,7 @@ namespace PassportRegistration
             this.bDepartmentsDelete.TabIndex = 26;
             this.bDepartmentsDelete.Text = "Удалить";
             this.bDepartmentsDelete.UseVisualStyleBackColor = true;
+            this.bDepartmentsDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // bDepartmentsAlter
             // 
@@ -490,6 +509,7 @@ namespace PassportRegistration
             this.bDepartmentsAlter.TabIndex = 25;
             this.bDepartmentsAlter.Text = "Изменить";
             this.bDepartmentsAlter.UseVisualStyleBackColor = true;
+            this.bDepartmentsAlter.Click += new System.EventHandler(this.buttonAlter_Click);
             // 
             // bDepartmentsAdd
             // 
@@ -499,6 +519,7 @@ namespace PassportRegistration
             this.bDepartmentsAdd.TabIndex = 24;
             this.bDepartmentsAdd.Text = "Добавить";
             this.bDepartmentsAdd.UseVisualStyleBackColor = true;
+            this.bDepartmentsAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // tabCommisariats
             // 
@@ -532,6 +553,7 @@ namespace PassportRegistration
             this.bCommisariatsDelete.TabIndex = 30;
             this.bCommisariatsDelete.Text = "Удалить";
             this.bCommisariatsDelete.UseVisualStyleBackColor = true;
+            this.bCommisariatsDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // bCommisariatsAlter
             // 
@@ -541,6 +563,7 @@ namespace PassportRegistration
             this.bCommisariatsAlter.TabIndex = 29;
             this.bCommisariatsAlter.Text = "Изменить";
             this.bCommisariatsAlter.UseVisualStyleBackColor = true;
+            this.bCommisariatsAlter.Click += new System.EventHandler(this.buttonAlter_Click);
             // 
             // bCommisariatsAdd
             // 
@@ -550,6 +573,7 @@ namespace PassportRegistration
             this.bCommisariatsAdd.TabIndex = 28;
             this.bCommisariatsAdd.Text = "Добавить";
             this.bCommisariatsAdd.UseVisualStyleBackColor = true;
+            this.bCommisariatsAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // tabMaritalOffices
             // 
@@ -583,6 +607,7 @@ namespace PassportRegistration
             this.bMaritalOfficesDelete.TabIndex = 34;
             this.bMaritalOfficesDelete.Text = "Удалить";
             this.bMaritalOfficesDelete.UseVisualStyleBackColor = true;
+            this.bMaritalOfficesDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // bMaritalOfficesAlter
             // 
@@ -592,6 +617,7 @@ namespace PassportRegistration
             this.bMaritalOfficesAlter.TabIndex = 33;
             this.bMaritalOfficesAlter.Text = "Изменить";
             this.bMaritalOfficesAlter.UseVisualStyleBackColor = true;
+            this.bMaritalOfficesAlter.Click += new System.EventHandler(this.buttonAlter_Click);
             // 
             // bMaritalOfficesAdd
             // 
@@ -601,6 +627,7 @@ namespace PassportRegistration
             this.bMaritalOfficesAdd.TabIndex = 32;
             this.bMaritalOfficesAdd.Text = "Добавить";
             this.bMaritalOfficesAdd.UseVisualStyleBackColor = true;
+            this.bMaritalOfficesAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // tabMaritalTypes
             // 
@@ -634,6 +661,7 @@ namespace PassportRegistration
             this.bMaritalTypesDelete.TabIndex = 38;
             this.bMaritalTypesDelete.Text = "Удалить";
             this.bMaritalTypesDelete.UseVisualStyleBackColor = true;
+            this.bMaritalTypesDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // bMaritalTypesAlter
             // 
@@ -643,6 +671,7 @@ namespace PassportRegistration
             this.bMaritalTypesAlter.TabIndex = 37;
             this.bMaritalTypesAlter.Text = "Изменить";
             this.bMaritalTypesAlter.UseVisualStyleBackColor = true;
+            this.bMaritalTypesAlter.Click += new System.EventHandler(this.buttonAlter_Click);
             // 
             // bMaritalTypesAdd
             // 
@@ -652,6 +681,7 @@ namespace PassportRegistration
             this.bMaritalTypesAdd.TabIndex = 36;
             this.bMaritalTypesAdd.Text = "Добавить";
             this.bMaritalTypesAdd.UseVisualStyleBackColor = true;
+            this.bMaritalTypesAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // tabMilitaryCategories
             // 
@@ -685,6 +715,7 @@ namespace PassportRegistration
             this.bMilitaryCategoriesDelete.TabIndex = 42;
             this.bMilitaryCategoriesDelete.Text = "Удалить";
             this.bMilitaryCategoriesDelete.UseVisualStyleBackColor = true;
+            this.bMilitaryCategoriesDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // bMilitaryCategoriesAlter
             // 
@@ -694,6 +725,7 @@ namespace PassportRegistration
             this.bMilitaryCategoriesAlter.TabIndex = 41;
             this.bMilitaryCategoriesAlter.Text = "Изменить";
             this.bMilitaryCategoriesAlter.UseVisualStyleBackColor = true;
+            this.bMilitaryCategoriesAlter.Click += new System.EventHandler(this.buttonAlter_Click);
             // 
             // bMilitaryCategoriesAdd
             // 
@@ -703,6 +735,7 @@ namespace PassportRegistration
             this.bMilitaryCategoriesAdd.TabIndex = 40;
             this.bMilitaryCategoriesAdd.Text = "Добавить";
             this.bMilitaryCategoriesAdd.UseVisualStyleBackColor = true;
+            this.bMilitaryCategoriesAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // tabSexes
             // 
@@ -736,6 +769,7 @@ namespace PassportRegistration
             this.bSexesDelete.TabIndex = 46;
             this.bSexesDelete.Text = "Удалить";
             this.bSexesDelete.UseVisualStyleBackColor = true;
+            this.bSexesDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // bSexesAlter
             // 
@@ -745,6 +779,7 @@ namespace PassportRegistration
             this.bSexesAlter.TabIndex = 45;
             this.bSexesAlter.Text = "Изменить";
             this.bSexesAlter.UseVisualStyleBackColor = true;
+            this.bSexesAlter.Click += new System.EventHandler(this.buttonAlter_Click);
             // 
             // bSexesAdd
             // 
@@ -754,6 +789,7 @@ namespace PassportRegistration
             this.bSexesAdd.TabIndex = 44;
             this.bSexesAdd.Text = "Добавить";
             this.bSexesAdd.UseVisualStyleBackColor = true;
+            this.bSexesAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // menuStrip1
             // 
